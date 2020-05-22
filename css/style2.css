@@ -1,0 +1,68 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+* {
+	box-sizing: border-box;
+}
+body{
+   background-image: url('../képek/fal.jpeg');
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-color:black;
+   background-position:center;
+   
+   font-family: 'Montserrat', sans-serif;
+   color:black;
+   font-size:20px;
+ }
+ body h1{
+	 text-align:center;
+	 padding-left:110px;
+ } 
+ body h2{
+	 text-align:center;
+ }
+ footer{
+	padding-top:30px;
+}
+.bme{
+	background-repeat: no-repeat;
+}
+.gpk{
+	background-repeat:no-repeat;
+	float:right;
+}
+.box a{
+	color: #ff5050
+}
+nav:after{
+	content:'';
+	clear: both;
+	display: table;
+}
+nav ul{
+	margin:0;
+	padding:30px;
+	list-style:none;
+	display:flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	justify-content:space-evenly;
+}
+nav ul li a{
+	color: #e60000;
+	display: block;
+	padding: 20px ;
+	text-decoration:none;
+	text-align:center;
+}
+nav a:hover{
+	padding:15px;
+}
+body ul{
+	padding:0px;
+}
+body ul img{
+	padding-left:20px;
+}
+
+
